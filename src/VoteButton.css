@@ -1,0 +1,14 @@
+.vote-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.vote-button:hover {
+  transform: scale(1.1);
+}
+
+.vote-button.upvoted .fa-fire {
+  color: orange;
+}
